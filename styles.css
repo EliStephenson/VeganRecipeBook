@@ -55,7 +55,7 @@ h1 {
 }
 
 .dropdown-content.show {
-    max-height: 200px; /* or however tall you want your dropdown to be */
+    max-height: 600px; /* or however tall you want your dropdown to be */
 }
 
 .container {
