@@ -3,9 +3,12 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Mairin and Eli's Recipes</h1>
+
+       
         <div class="menu-container">  <!-- New menu-container div -->
             <div class="dropdown">
                 <button class="dropbtn">Breakfast</button>
@@ -15,6 +18,13 @@
                 <a href="recipes/vegan-bacon.html">Vegan Bacon</a>
                 <a href="recipes/crepes.html">Crepes</a>
                 <a href="recipes/lemon-poppy-seed-muffins.html">Lemon Poppy Seed Muffins</a>
+                <a href="recipes/eggy-tofu-scramble.html">Eggy Tofu Scramble</a>
+                <a href="recipes/churro-baked-oats-stuffed-with-cream-cheese.html">Churro Baked Oats Stuffed with Cream Cheese</a>
+                <a href="recipes/waffles.html">Waffles</a>
+                <a href="recipes/chocolate-pancakes-with-tahini-topping.html">Chocolate Pancakes with Tahini Topping</a>
+                <a href="recipes/pancakes.html">Pancakes</a>
+
+
 
                 </div>
             </div>
@@ -30,10 +40,17 @@
                 <a href="recipes/thai-panang-curry-with-vegetables.html">Thai Panang Curry With Vegetables</a>
                 <a href="recipes/simple-mushroom-tacos.html">Mushroom Tacos</a>
                 <a href="recipes/kale-and-brussel-sprout-salad.html">Kale and Brussel Sprout Salad</a>
-
-
-
-
+                <a href="recipes/caramelized-onion-tofu-sandwhich.html">Caramelized Onion Tofu Sandwich</a>
+                <a href="recipes/garlic-bread-grilled-cheese.html">Garlic Bread Grilled Cheese</a>
+                <a href="recipes/crispy-buffalo-oyster-mushrooms.html">Crispy Buffalo Oyster Mushrooms</a>
+                <a href="recipes/savory-hamburger-less-toast.html">Savory Hamburger-less Toast</a>
+                <a href="recipes/black-bean-burgers.html">Black Bean Burgers</a>
+                <a href="recipes/sweet-and-spicy-jackfruit.html">Sweet and Spicy Jackfruit</a>
+                <a href="recipes/mushroom-bahn-mi.html">Mushroom Banh Mi</a>
+                <a href="recipes/spicy-chickpea-quesadillas.html">Spicy Chickpea Quesadillas</a>
+                <a href="recipes/ricks-winter-salad.html">Rick's Winter Salad</a>
+                <a href="recipes/sesame-udon-noodle-salad.html">Sesame Udon Noodle Salad</a>
+                <a href="recipes/sesame-udon-noodle-salad.html">Spinach and Artichoke Pasta</a>
 
 
                 </div>
@@ -55,6 +72,9 @@
                 <a href="recipes/snickerdoodles.html">Snickerdoodles</a>
                 <a href="recipes/no-bake-cookie-dough-bars.html">No Bake Cookie Dough Bars</a>
                 <a href="recipes/hazelnut-cookie-bars.html">Hazelnut Cookie Bars</a>
+                <a href="recipes/creme-brulee.html">Crème Brûlée</a>
+                <a href="recipes/no-bake-chocolate-peanut-butter-cookies.html">No Bake Chocolate Peanut Butter Cookies</a>
+                <a href="recipes/muddy-buddies.html">Muddy Buddies</a>
 
 
                 </div>
@@ -65,20 +85,51 @@
                 <div class="dropdown-content">
                 <a href="recipes/pumpkin-spice-syrup.html">Pumpkin Spice Syrup</a>
                 <a href="recipes/golden-turmeric-latte.html">Golden Turmeric Latte</a>
+
+
+                
                 </div>
             </div>
+
+
+
+
             <div class="dropdown">
                 <button class="dropbtn">Sauces and Cheeses</button>
                 <div class="dropdown-content">
                 <a href="recipes/hummus.html">Hummus</a>
                 <a href="recipes/basil-aioli.html">Basil Aioli</a>
                 <a href="recipes/peanut-sauce.html">Peanut Sauce</a>
+                <a href="recipes/nutella.html">Nutella</a>
+                <a href="recipes/cashew-mac-n-cheese.html">Cashew Mac and Cheese Sauce</a>
+                <a href="recipes/avocado-cilantro-dressing.html">Avocado Cilantro Dressing</a>
+                <a href="recipes/queso.html">Queso</a>
+                <a href="recipes/lentil-dip.html">Lentil Dip</a>
+                <a href="recipes/stovetop-mac-and-cheese-sauce.html">Stovetop Mac and Cheese Sauce</a>
+                <a href="recipes/sweet-tahini-sauce.html">Sweet Tahini Sauce</a>
+                <a href="recipes/fermented-cashew-cheese.html">Fermented Cashew Cheese</a>
+
+
+
 
                 </div>
             </div>
         <!-- The remaining dropdowns go here... -->
         </div>
+
+        
+        <div class="search-container">
+            <input id="search" type="text" onkeyup="searchFunction()" autocomplete="off">
+            <div id="results" class="searchDropdown"></div>
+        </div>
+
+
     </div>
+    
+    <script src="fuse.basic.min.js"></script>
     <script src="script.js"></script>
+    
+
+
 </body>
 </html>
