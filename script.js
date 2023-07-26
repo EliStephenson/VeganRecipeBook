@@ -25,7 +25,7 @@ window.onclick = function(e) {
 
 // Your list of recipes
 const recipes = [
-    { title: 'Pumpkin Spice Syrup', url: 'recipes/pumpkin-spice-syrup.html', content: 'pumpkin' },
+    { title: 'PB & J French Toast', url: 'recipes/pumpkin-spice-syrup.html', content: '...' },
     { title: 'Vegan Bacon', url: 'recipes/vegan-bacon.html', content: '...' },
     { title: 'Basil Aioli', url: 'recipes/basil-aioli.html', content: '...' },
     // ... rest of your recipes ...
