@@ -11,7 +11,7 @@ body {
 
 header {
     margin: 20px;
-    border-bottom: 2px solid #50867B; /* Adds an accent line under the title */
+    border-bottom: 1px solid #50867B; /* Adds an accent line under the title */
 }
 
 h1 {
@@ -25,10 +25,16 @@ h1 {
     font-size: 16px;
     border: 1px solid #50867B; /* Adds a sage green border around the dropdown button */
     cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
 }
 
 .dropdown {
-    margin-top: 20px;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
@@ -40,7 +46,8 @@ h1 {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: max-height 0.5s ease-in-out;
-    border: 1px solid #50867B; /* Adds a sage green border around the dropdown menu */
+  
+    
 }
 
 .dropdown-content a {
@@ -48,6 +55,15 @@ h1 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+}
+
+.dropdown-content .dropdown-column {
+    float: left;
+    width: 100%;
+    column-count: 3;
+    column-gap: 15px;
+    max-height: 1200px;
+    padding: 12px 16px;
 }
 
 .dropdown-content a:hover {
@@ -58,6 +74,15 @@ h1 {
     max-height: 2000px; /* or however tall you want your dropdown to be */
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +90,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 10px; /* adjust this value for more or less space between buttons */
-    width: 100%;
+    width: fit-content;
 }
 
 .menu-container {
@@ -107,3 +132,4 @@ h1 {
     width: 150px;
     margin: auto; /* new addition */
 }
+
