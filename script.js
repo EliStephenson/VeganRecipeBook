@@ -107,6 +107,7 @@ const recipes = [
     { title: 'Iced Mocha', url: 'recipes/drinks/iced-mocha.html', content: '...' },
     { title: 'Lemonade', url: 'recipes/drinks/lemonade.html', content: '...' },
     { title: 'Pumpkin Spice Syrup', url: 'recipes/drinks/pumpkin-spice-syrup.html', content: '...' },
+    { title: 'Orange Ginger Tea', url: 'recipes/drinks/orange-ginger-tea.html', content: '...' },
     // end of drinks, beginning of sauces and cheeses
     { title: 'Alfredo Sauce', url: 'recipes/saucesncheeses/alfredo-sauce.html', content: '...' },
     { title: 'Avocado Cilantro Dressing', url: 'recipes/saucesncheeses/avocado-cilantro-dressing.html', content: '...' },
