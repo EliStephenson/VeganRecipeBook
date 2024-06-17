@@ -55,6 +55,7 @@ const recipes = [
     { title: 'Kale and Brussel Sprout Salad', url: 'recipes/dinner/kale-and-brussel-sprout-salad.html', content: '...' },
     { title: 'Kale and Tempeh Ceasar Salad', url: 'recipes/dinner/kale-and-tempeh-ceasar-salad.html', content: '...' },
     { title: 'Lemon & Zucchini Gnocchi', url: 'recipes/dinner/lemon-and-zucchini-gnocchi.html', content: '...' },
+    { title: 'Lemon Chickpea Soup', url: 'recipes/dinner/lemon-chickpea-soup.html', content: '...' },
     { title: 'Lemon Walnut Chickpea Salad', url: 'recipes/dinner/lemon-walnut-chickpea-salad.html', content: '...' },
     { title: 'Mashed Potatoes', url: 'recipes/dinner/mashed-potatoes.html', content: '...' },
     { title: 'Mediterranean Quinoa Bowl', url: 'recipes/dinner/mediterranean-quinoa-bowl.html', content: '...' },
