@@ -35,6 +35,7 @@ const recipes = [
     { title: 'Pancakes', url: 'recipes/breakfast/pancakes.html', content: '...' },
     { title: 'PB & J French Toast', url: 'recipes/breakfast/pbj-french-toast.html', content: '...' },
     { title: 'Strawberry Sticky Buns', url: 'recipes/breakfast/strawberry-sticky-buns.html', content: '...' },
+    { title: 'Tiramisu Overnight Oats', url: 'recipes/breakfast/tiramisu-overnight-oats.html', content: '...' },
     { title: 'Vegan Bacon', url: 'recipes/breakfast/vegan-bacon.html', content: '...' },
     { title: 'Very Easy Bagels', url: 'recipes/breakfast/very-easy-bagles.html', content: '...' },
     { title: 'Waffles', url: 'recipes/breakfast/waffles.html', content: '...' },
