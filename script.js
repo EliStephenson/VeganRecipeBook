@@ -82,6 +82,7 @@ const recipes = [
     { title: 'Cornbread', url: 'recipes/snacksnsides/cornbread.html', content: '...' },
     { title: 'Crispy Chickpeas', url: 'recipes/snacksnsides/crispy-chickpeas.html', content: '...' },
     { title: 'Granola', url: 'recipes/snacksnsides/granola.html', content: '...' },
+    { title: 'Granola Bars', url: 'recipes/snacksnsides/granola-bars.html', content: '...' },
     { title: 'Spanish Rice', url: 'recipes/snacksnsides/spanish-rice.html', content: '...' },
     { title: 'Spinach Artichoke Dip', url: 'recipes/snacksnsides/spinach-artichoke-dip.html', content: '...' },
     { title: 'Tofu Feta', url: 'recipes/snacksnsides/tofu-feta.html', content: '...' },
