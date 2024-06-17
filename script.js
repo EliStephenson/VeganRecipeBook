@@ -46,6 +46,7 @@ const recipes = [
     { title: 'Cajun Pasta With Breaded Tofu', url: 'recipes/dinner/cajun-pasta-with-breaded-tofu.html', content: '...' },
     { title: 'Caramelized Onion Tofu Sandwich', url: 'recipes/dinner/caramelized-onion-tofu-sandwhich.html', content: '...' },
     { title: 'Cheesy Gochujang Noodles', url: 'recipes/dinner/cheesy-gochujang-noodles.html', content: '...' },
+    { title: 'Creamy Orzo', url: 'recipes/dinner/creamy-orzo.html', content: '...' },
     { title: 'Crispy Buffalo Oyster Mushrooms', url: 'recipes/dinner/crispy-buffalo-oyster-mushrooms.html', content: '...' },
     { title: 'Crispy Smashed Potatoes', url: 'recipes/dinner/crispy-smashed-potatoes.html', content: '...' },
     { title: 'Croque Monsieur', url: 'recipes/dinner/croque-monsieur.html', content: '...' },
