@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="recipestyles.css">
+</head>
+<body>
+    <header>
+        <h1>PB & J Overnight Oats</h1>
+        <a href="../../index.html" class="back-button">Back to Main Page</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+            
+                <li>½ cup whole rolled oats</li>
+                <li>1-2 tbsp seeds of choice</li>
+                <li>7 tbsp plant milk</li>
+                <li>2-4 tbsp vegan yogurt</li>
+                <li>2 tbsp peanut butter</li>
+	<li>1.5 tbsp sweetener</li>
+	<li>Fresh berries of choice</li>
+            </ul>
+       
+        </section>
+
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Add all ingredients except berries to a mason jar and shake vigorously to combine.</li>
+                <li>Top the mixture with fresh berries and refrigerate overnight.</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
