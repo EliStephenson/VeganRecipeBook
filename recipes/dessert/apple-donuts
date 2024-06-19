@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="recipestyles.css">
+</head>
+<body>
+    <header>
+        <h1>Apple Donuts</h1>
+        <a href="../../index.html" class="back-button">Back to Main Page</a>
+    </header>
+    <main>
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 apple of choice</li>
+                <li>1 sheet of puff pastry</li>
+                <li>⅓ cup sugar of choice</li>
+                <li>2 tsp cinnamon</li>
+                <li>½ tsp nutmeg</li>
+	<li>2 tbsp plant milk</li>
+	<li>1 tsp agave</li>
+	<li>2 tbsp agave or honey</li>
+	<li>1 tsp cinnamon</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Preheat the oven to 400 degrees F and line a baking sheet with parchment.</li>
+                <li>Cut an apple into ½ inch rounds, then use a small cookie cutter to create apple rings. You can slice the scraps and use them for something else.</li>
+                <li>Combine the sugar, cinnamon, and nutmeg in a bowl or on a plate. Dip your apple rings into the mixture.</li>
+                <li>Slice the puff pastry into thin strips, and wrap the dough around the apple rings.</li>
+                <li>Combine the plant milk and 1 tsp agave, then brush this mixture onto the donuts. Bake the donuts for 15 minutes or until golden brown on top.</li>
+                <li>Combine the agave/honey with the cinnamon and drizzle over the donuts.</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
+
