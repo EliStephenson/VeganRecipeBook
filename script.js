@@ -92,6 +92,7 @@ const recipes = [
     { title: 'Tofu Feta', url: 'recipes/snacksnsides/tofu-feta.html', content: '...' },
     { title: 'Zucchini Fries', url: 'recipes/snacksnsides/zucchini-fries.html', content: '...' },
     // end of snacks and sides, beginning of desserts
+    { title: 'Apple Donuts', url: 'recipes/dessert/apple-donuts.html', content: '...' },
     { title: 'Blueberry Lavender Scones', url: 'recipes/dessert/blueberry-lavender-scones.html', content: '...' },
     { title: 'Chocolate Mug Cake', url: 'recipes/dessert/chocolate-mug-cake.html', content: '...' },
     { title: 'Crème Brûlée', url: 'recipes/dessert/creme-brulee.html', content: '...' },
