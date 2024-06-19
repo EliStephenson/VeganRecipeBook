@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="recipestyles.css">
+</head>
+<body>
+    <header>
+        <h1>Chopped Salad Sandwich</h1>
+        <a href="../../index.html" class="back-button">Back to Main Page</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Bread of choice - pita bread, ciabatta, etc.</li>
+                <li>Green base - arugula is my fave</li>
+                <li>Pickled element - pickles, sauerkraut, pickled red onion, etc.</li>
+                <li>Fun veggies - radishes, peppers, pepperoncinis, etc.</li>
+                <li>Tangy element - sun dried tomatoes</li>
+                <li>Tofu feta</li>
+                <li>Protein - veggie dogs, tofurkey/ham, tempeh, etc.</li>
+                <li>Salt, pepper, and herbs to taste</li>
+                <li>Sauce - pesto, hummus, cream cheese, or aioli</li>
+                
+            </ul>
+        </section>
+
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Chop all ingredients up and stuff into a pita wrap or bread!</li>
+              
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
