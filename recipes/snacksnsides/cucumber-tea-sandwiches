@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="recipestyles.css">
+</head>
+<body>
+    <header>
+        <h1>Cucumber Tea Sandwiches</h1>
+        <a href="../../index.html" class="back-button">Back to Main Page</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ingredients</h2>
+                   <ul>
+                <li>8 slices of high-quality white bread, crusts removed</li>
+                <li>1 english cucumber</li>
+                <li>½ cup vegan cream cheese</li>
+                <li>2 tbsp vegan mayo</li>
+                <li>1 tsp fresh minced dill</li>
+	<li>1 tsp fresh chopped chives</li>
+	<li>2 tsp lemon juice</li>
+	<li>¼ tsp garlic powder</li>
+	<li>salt and pepper to taste</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Cut the cucumber into thin rounds with a mandolin or sharp knife. Place them on a paper towel/dish towel and sprinkle with salt to extract moisture. Let them sit for about 15 minutes.</li>
+                <li>Mix together the remaining ingredients.</li>
+                <li>Spread the cream cheese mixture onto every bread slice, and layer cucumbers on half of them. Create the sandwiches and cut into triangles or rectangles.</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
