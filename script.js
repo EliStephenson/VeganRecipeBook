@@ -82,6 +82,7 @@ const recipes = [
     { title: 'Thai Burritos', url: 'recipes/dinner/thai-burritos.html', content: '...' },
     { title: 'Thai Panang Curry With Vegetables', url: 'recipes/dinner/thai-panang-curry-with-vegetables.html', content: '...' },
     { title: 'Veggie Potstickers', url: 'recipes/dinner/veggie-potstickers.html', content: '...' },
+    { title: 'White Bean Ditalini', url: 'recipes/dinner/white-bean-ditalini.html', content: '...' },
     // end of dinner beginning of snacks and sides
     { title: 'Cornbread', url: 'recipes/snacksnsides/cornbread.html', content: '...' },
     { title: 'Cucumber Tea Sandwiches', url: 'recipes/snacksnsides/cucumber-tea-sandwiches.html', content: '...' },
