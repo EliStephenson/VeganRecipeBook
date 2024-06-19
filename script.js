@@ -84,6 +84,7 @@ const recipes = [
     { title: 'Veggie Potstickers', url: 'recipes/dinner/veggie-potstickers.html', content: '...' },
     // end of dinner beginning of snacks and sides
     { title: 'Cornbread', url: 'recipes/snacksnsides/cornbread.html', content: '...' },
+    { title: 'Cucumber Tea Sandwiches', url: 'recipes/snacksnsides/cucumber-tea-sandwiches.html', content: '...' },
     { title: 'Crispy Chickpeas', url: 'recipes/snacksnsides/crispy-chickpeas.html', content: '...' },
     { title: 'Granola', url: 'recipes/snacksnsides/granola.html', content: '...' },
     { title: 'Granola Bars', url: 'recipes/snacksnsides/granola-bars.html', content: '...' },
