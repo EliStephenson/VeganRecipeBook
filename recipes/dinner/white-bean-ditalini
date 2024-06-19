@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="recipestyles.css">
+</head>
+<body>
+    <header>
+        <h1>Creamy White Bean Ditalini</h1>
+        <a href="../index.html" class="back-button">Back to Main Page</a>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 medium shallot, diced</li>
+                <li>4 cloves garlic, minced</li>
+                <li>2 tbsp vegan butter</li>
+                <li>1 tsp freshly cracked  black pepper</li>
+                <li>1 tsp garlic salt</li>
+	<li>1 tsp red pepper flakes</li>
+	<li>1 tsp italian seasoning (basil, oregano, rosemary, marjoram, thyme)</li>	
+	<li>¼ cup nutritional yeast</li>
+	<li>½ a box of ditalini</li>
+	<li>1 can white beans</li>
+	<li>3+ cups veggie broth</li>
+	<li>½ cup any combo of vegan cheese/cream/yogurt</li>
+	<li>large handful of spinach</li>
+	<li>1-2 tbsp lemon juice</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Melt vegan butter in a pan over medium heat; add shallots and garlic and saute until fragrant and soft.</li>
+                <li>Add pepper, garlic salt, red pepper, Italian seasoning and nooch to the pan. Stir, then add dry pasta and beans. Add the veggie broth and bring to a boil.</li>
+                <li>Let the veggie broth boil until the pasta is cooked to your liking, adding more broth as necessary.</li>
+                <li>Turn the heat to low and mix in your creamy elements, spinach, and lemon juice. Season to taste and enjoy!</li>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
