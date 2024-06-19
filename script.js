@@ -64,6 +64,7 @@ const recipes = [
     { title: 'Mushroom Banh Mi', url: 'recipes/dinner/mushroom-bahn-mi.html', content: '...' },
     { title: 'Mushroom Carbonara', url: 'recipes/dinner/mushroom-carbonara.html', content: '...' },
     { title: 'Mushroom Cheeseburger', url: 'recipes/dinner/mushroom-cheeseburger.html', content: '...' },
+    { title: 'Mushroom Fried Rice', url: 'recipes/dinner/mushroom-fried-rice.html', content: '...' },
     { title: 'Mushroom Soup', url: 'recipes/dinner/mushroom-soup.html', content: '...' },
     { title: 'Potato Sausage Wraps', url: 'recipes/dinner/potato-sausage-wraps.html', content: '...' },
     { title: 'Roasted Broccoli Salad', url: 'recipes/dinner/roasted-broccoli-salad.html', content: '...' },
