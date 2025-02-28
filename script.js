@@ -110,6 +110,7 @@ const recipes = [
     { title: 'Pumpkin Cream Cheese Muffins', url: 'recipes/dessert/pumpkin-cream-cheese-muffins.html', content: '...' },
     { title: 'Samoas (Coconut Cookie)', url: 'recipes/dessert/samoas-coconut-cookie.html', content: '...' },
     { title: 'Snickerdoodles', url: 'recipes/dessert/snickerdoodles.html', content: '...' },
+    { title: 'Chickpea Cookies', url: 'recipes/dessert/chickpea-cookies.html', content: '...' },
     // end of desserts, beginning of drinks
     { title: 'Golden Turmeric Latte', url: 'recipes/drinks/golden-turmeric-latte.html', content: '...' },
     { title: 'Iced Mocha', url: 'recipes/drinks/iced-mocha.html', content: '...' },
