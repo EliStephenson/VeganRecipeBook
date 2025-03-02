@@ -28,7 +28,7 @@ h1 {
     color: #50867B; /* This is a shade of sage green. Adjust as necessary. */
     font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
     padding: 16px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid #50867B; /* Adds a sage green border around the dropdown button */
     cursor: pointer;
     display: inline-block;
