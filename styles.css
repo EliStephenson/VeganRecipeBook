@@ -1,12 +1,15 @@
 body {
     background-color: white;
     color: #50867B; /* This is a shade of sage green. Adjust as necessary. */
-    font-family: Arial, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("images/aura11.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -46,6 +49,7 @@ h1 {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: max-height 0.5s ease-in-out;
+    display: block;
   
     
 }
@@ -55,7 +59,6 @@ h1 {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    white-space: nowrap; /* prevent text from wrapping onto next line */
 }
 
 .dropdown-content .dropdown-column {
