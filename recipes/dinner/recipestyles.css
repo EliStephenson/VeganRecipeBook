@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f0e1; /* This is an earthy beige color. Adjust as necessary. */
-    /* background-image: url("aura1.jpg"); Add your background image here */
     background-size: cover;
     color: #50867B; /* This is a shade of sage green. Adjust as necessary. */
     background-image: url("images/aura1.jpg");
@@ -38,6 +37,4 @@ ul, ol {
     width: 40%;
     margin-left: 20px;
     border-radius: 10px;
-    max-width: 100%;
-    margin: 0 auto;
 }
