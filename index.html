@@ -183,24 +183,6 @@
     
     <script src="fuse.basic.min.js"></script>
     <script src="script.js"></script>
-    
-    <!-- fix dropdown functionality potentially -->
-    <script>
-        document.querySelectorAll('.dropdown').forEach(dropdown => {
-            dropdown.querySelector('.dropbtn').addEventListener('click', function() {
-                // Close all other dropdowns
-                document.querySelectorAll('.dropdown-content').forEach(content => {
-                    if (content !== dropdown.querySelector('.dropdown-content')) {
-                        content.classList.remove('show');
-                    }
-                });
-
-                // Toggle the current dropdown
-                const content = dropdown.querySelector('.dropdown-content');
-                content.classList.toggle('show');
-            });
-        });
-    </script>
 
 </body>
 </html>
