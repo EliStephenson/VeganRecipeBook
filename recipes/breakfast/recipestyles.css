@@ -30,3 +30,11 @@ h1, h2 {
 ul, ol {
     color: #6B4226; /* This is a dark earthy brown color. Adjust as necessary. */
 }
+
+.recipe-image 
+{
+    float: right;
+    width: 40%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
