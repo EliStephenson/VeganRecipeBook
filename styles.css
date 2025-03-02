@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("recipes/images/aura11.jpg");
+    background-image: url("recipes/images/aura12.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -16,6 +16,7 @@ header {
     margin: 20px;
     border-bottom: 1px solid #50867B; /* Adds an accent line under the title */
     width: 100%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
 }
 
 h1 {
@@ -25,8 +26,9 @@ h1 {
 .dropbtn {
     background-color: #EDA5FE; /* This is a shade of lavender. Adjust as necessary. */
     color: #50867B; /* This is a shade of sage green. Adjust as necessary. */
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
     padding: 16px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #50867B; /* Adds a sage green border around the dropdown button */
     cursor: pointer;
     display: inline-block;
