@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("images/aura11.jpg");
+    background-image: url("recipes/images/aura11.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -15,6 +15,7 @@ body {
 header {
     margin: 20px;
     border-bottom: 1px solid #50867B; /* Adds an accent line under the title */
+    width: 100%;
 }
 
 h1 {
@@ -44,14 +45,12 @@ h1 {
     max-height: 0;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    /*min-width: 160px;*/
     overflow: hidden;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: max-height 0.5s ease-in-out;
     display: block;
-  
-    
 }
 
 .dropdown-content a {
@@ -101,7 +100,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 900 px; /* Adjust as necessary */
+    max-width: 1200 px; /* Adjust as necessary - was 900 before */
     padding: 0 100px;
     box-sizing: border-box;
 }
@@ -133,7 +132,7 @@ h1 {
   
   .search-container {
     position: relative;
-    width: 150px;
+    width: 200px;
     margin: auto; /* new addition */
 }
 
