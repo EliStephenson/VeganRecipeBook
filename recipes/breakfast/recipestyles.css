@@ -1,12 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Century Gothic", "Avant Garde", Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f0e1; /* This is an earthy beige color. Adjust as necessary. */
-    background-image: url("flowers.jpg"); /* Add your flowery background image here */
     background-size: cover;
     color: #50867B; /* This is a shade of sage green. Adjust as necessary. */
-    background-image: url("images/recipe-flower-background.jpg");
+    background-image: url("images/aura5.jpg");
     background-size: cover;
     background-position: center;
 }
