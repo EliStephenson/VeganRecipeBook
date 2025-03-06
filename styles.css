@@ -142,7 +142,9 @@ h1 {
 /* Try adding photos to main page */
 .main-page-image {
     float: right;
-    width: 40%;
+    width: 30%;
+    max-width: 250px;
+    margin: 10px 0 10px 20px;
     margin-left: 20px;
     border-radius: 10px;
 }
