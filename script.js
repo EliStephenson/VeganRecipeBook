@@ -25,9 +25,11 @@ window.onclick = function(e) {
 
 // Your list of recipes
 const recipes = [
-    { title: 'Chocolate Pancakes with Tahini Topping[', url: 'recipes/breakfast/chocolate-pancakes-with-tahini-topping.html', content: '...' },
+    { title: 'Chocolate Pancakes with Tahini Topping', url: 'recipes/breakfast/chocolate-pancakes-with-tahini-topping.html', content: '...' },
     { title: 'Churro Baked Oats Stuffed with Cream Cheese', url: 'recipes/breakfast/churro-baked-oats-stuffed-with-cream-cheese.html', content: '...' },
+    { title: 'Cinnamon Rolls', url: 'recipes/breakfast/cinnamon-rolls.html', content: '...' },
     { title: 'Crepes', url: 'recipes/breakfast/crepes.html', content: '...' },
+    { title: 'Croissants', url: 'recipes/breakfast/Croissants.html', content: '...' },
     { title: 'Eggy Tofu Scramble', url: 'recipes/breakfast/eggy-tofu-scramble.html', content: '...' },
     { title: 'Fruit Pastry/Toaster Strudel', url: 'recipes/breakfast/fruit-pastry-toaster-strudel.html', content: '...' },
     { title: 'Lemon Poppy Seed Muffins', url: 'recipes/breakfast/lemon-poppy-seed-muffins.html', content: '...' },
@@ -48,6 +50,8 @@ const recipes = [
     { title: 'Caramelized Onion Tofu Sandwich', url: 'recipes/dinner/caramelized-onion-tofu-sandwhich.html', content: '...' },
     { title: 'Cheesy Gochujang Noodles', url: 'recipes/dinner/cheesy-gochujang-noodles.html', content: '...' },
     { title: 'Chopped Salad Sandwich', url: 'recipes/dinner/chopped-salad-sandwich.html', content: '...' },
+    { title: 'Chorizo White Bean Stew', url: 'recipes/dinner/chorizo-white-bean-stew.html', content: '...' },
+    { title: 'Citrus Beet Salad', url: 'recipes/dinner/citrus-beet-salad.html', content: '...' },
     { title: 'Creamy Orzo', url: 'recipes/dinner/creamy-orzo.html', content: '...' },
     { title: 'Crispy Buffalo Oyster Mushrooms', url: 'recipes/dinner/crispy-buffalo-oyster-mushrooms.html', content: '...' },
     { title: 'Crispy Smashed Potatoes', url: 'recipes/dinner/crispy-smashed-potatoes.html', content: '...' },
@@ -60,6 +64,7 @@ const recipes = [
     { title: 'Lemon & Zucchini Gnocchi', url: 'recipes/dinner/lemon-and-zucchini-gnocchi.html', content: '...' },
     { title: 'Lemon Chickpea Soup', url: 'recipes/dinner/lemon-chickpea-soup.html', content: '...' },
     { title: 'Lemon Walnut Chickpea Salad', url: 'recipes/dinner/lemon-walnut-chickpea-salad.html', content: '...' },
+    { title: 'Marry Me Tofu', url: 'recipes/dinner/marry-me-tofu.html', content: '...' },
     { title: 'Mashed Potatoes', url: 'recipes/dinner/mashed-potatoes.html', content: '...' },
     { title: 'Mediterranean Quinoa Bowl', url: 'recipes/dinner/mediterranean-quinoa-bowl.html', content: '...' },
     { title: 'Mushroom Banh Mi', url: 'recipes/dinner/mushroom-bahn-mi.html', content: '...' },
@@ -98,9 +103,11 @@ const recipes = [
     // end of snacks and sides, beginning of desserts
     { title: 'Apple Donuts', url: 'recipes/dessert/apple-donuts.html', content: '...' },
     { title: 'Blueberry Lavender Scones', url: 'recipes/dessert/blueberry-lavender-scones.html', content: '...' },
+    { title: 'Chickpea Cookies', url: 'recipes/dessert/chickpea-cookies.html', content: '...' },
     { title: 'Chocolate Mug Cake', url: 'recipes/dessert/chocolate-mug-cake.html', content: '...' },
     { title: 'Crème Brûlée', url: 'recipes/dessert/creme-brulee.html', content: '...' },
     { title: 'Hazelnut Cookie Bars', url: 'recipes/dessert/hazelnut-cookie-bars.html', content: '...' },
+    { title: 'Ginger Snap Cookies', url: 'recipes/dessert/ginger-snap-cookies.html', content: '...' },
     { title: 'Layered Chocolate Mousse', url: 'recipes/dessert/layered-chocolate-mousse.html', content: '...' },
     { title: 'Lemon Cream Curd', url: 'recipes/dessert/lemon-cream-curd.html', content: '...' },
     { title: 'Miso Caramel', url: 'recipes/dessert/miso-caramel.html', content: '...' },
@@ -110,7 +117,7 @@ const recipes = [
     { title: 'Pumpkin Cream Cheese Muffins', url: 'recipes/dessert/pumpkin-cream-cheese-muffins.html', content: '...' },
     { title: 'Samoas (Coconut Cookie)', url: 'recipes/dessert/samoas-coconut-cookie.html', content: '...' },
     { title: 'Snickerdoodles', url: 'recipes/dessert/snickerdoodles.html', content: '...' },
-    { title: 'Chickpea Cookies', url: 'recipes/dessert/chickpea-cookies.html', content: '...' },
+    { title: 'Thumbprint Cookies', url: 'recipes/dessert/thumbprint-cookies.html', content: '...' },
     // end of desserts, beginning of drinks
     { title: 'Golden Turmeric Latte', url: 'recipes/drinks/golden-turmeric-latte.html', content: '...' },
     { title: 'Iced Mocha', url: 'recipes/drinks/iced-mocha.html', content: '...' },
