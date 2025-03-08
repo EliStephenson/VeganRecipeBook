@@ -88,6 +88,7 @@ const recipes = [
     { title: 'Sweet and Spicy Jackfruit', url: 'recipes/dinner/sweet-and-spicy-jackfruit.html', content: '...' },
     { title: 'Thai Burritos', url: 'recipes/dinner/thai-burritos.html', content: '...' },
     { title: 'Thai Panang Curry With Vegetables', url: 'recipes/dinner/thai-panang-curry-with-vegetables.html', content: '...' },
+    { title: 'Tofu Reuben', url: 'recipes/dinner/thai-burritos.html', content: '...' },
     { title: 'Veggie Potstickers', url: 'recipes/dinner/veggie-potstickers.html', content: '...' },
     { title: 'White Bean Ditalini', url: 'recipes/dinner/white-bean-ditalini.html', content: '...' },
     // end of dinner beginning of snacks and sides
