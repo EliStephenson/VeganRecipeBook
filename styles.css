@@ -152,7 +152,42 @@ h1 {
 
 /* new */
 
-.sub-dropbtn:hover {
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .submenu-content {
+    display: none;
+    position: absolute;
+    left: 100%; /* position submenu to the right of button */
+    top: 0;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-submenu:hover .submenu-content {
+    display: block;
+  }
+  
+  .submenu-btn {
+    background-color: #EDA5FE;
+    color: #0d5d58;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  
+
+/* .sub-dropbtn:hover {
     background-color: grey;
 }
 
@@ -178,7 +213,7 @@ h1 {
 
 .submenu-content {
     display: none;
-    position: relative; /* keep it flowing in the column instead of absolute */
+    position: relative; 
     background-color: white;
     padding: 8px 12px;
     border-left: 2px solid #50867B;
@@ -202,4 +237,4 @@ h1 {
 
 .submenu-btn:hover {
     background-color: #f1f1f1;
-}
+} */
