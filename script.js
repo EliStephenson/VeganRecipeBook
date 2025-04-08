@@ -49,6 +49,7 @@ const recipes = [
     { title: 'Cajun Pasta With Breaded Tofu', url: 'recipes/dinner/cajun-pasta-with-breaded-tofu.html', content: '...' },
     { title: 'Caramelized Onion Tofu Sandwich', url: 'recipes/dinner/caramelized-onion-tofu-sandwhich.html', content: '...' },
     { title: 'Cheesy Gochujang Noodles', url: 'recipes/dinner/cheesy-gochujang-noodles.html', content: '...' },
+    { title: 'Chimichurri Bowls', url: 'recipes/dinner/Chimichurri-Bowls.html', content: '...' },
     { title: 'Chopped Salad Sandwich', url: 'recipes/dinner/chopped-salad-sandwich.html', content: '...' },
     { title: 'Chorizo White Bean Stew', url: 'recipes/dinner/chorizo-white-bean-stew.html', content: '...' },
     { title: 'Citrus Beet Salad', url: 'recipes/dinner/citrus-beet-salad.html', content: '...' },
@@ -121,6 +122,7 @@ const recipes = [
     { title: 'Snickerdoodles', url: 'recipes/dessert/snickerdoodles.html', content: '...' },
     { title: 'Thumbprint Cookies', url: 'recipes/dessert/thumbprint-cookies.html', content: '...' },
     // end of desserts, beginning of drinks
+    { title: 'Chai Concentrate', url: 'recipes/drinks/chai-concentrate.html', content: '...' },
     { title: 'Golden Turmeric Latte', url: 'recipes/drinks/golden-turmeric-latte.html', content: '...' },
     { title: 'Iced Mocha', url: 'recipes/drinks/iced-mocha.html', content: '...' },
     { title: 'Lemonade', url: 'recipes/drinks/lemonade.html', content: '...' },
