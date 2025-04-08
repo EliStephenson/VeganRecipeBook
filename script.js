@@ -22,44 +22,39 @@
 // }
 
 
-// Handle main dropdown toggles
-var dropdowns = document.getElementsByClassName("dropdown");
+// Toggle main dropdown
+document.querySelectorAll(".dropbtn").forEach(btn => {
+  btn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    const dropdownContent = this.nextElementSibling;
+    dropdownContent.classList.toggle("show");
+  });
+});
 
-for (let i = 0; i < dropdowns.length; i++) {
-    dropdowns[i].getElementsByClassName("dropbtn")[0].addEventListener("click", function (e) {
-        e.stopPropagation(); // Prevent window.onclick from closing it
-        this.nextElementSibling.classList.toggle("show");
-    });
-}
+// Toggle submenus
+document.querySelectorAll(".submenu-btn").forEach(btn => {
+  btn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    const submenu = this.nextElementSibling;
+    submenu.classList.toggle("show-submenu");
+  });
+});
 
-// Handle submenu toggles
-var submenus = document.getElementsByClassName("submenu-btn");
-
-for (let i = 0; i < submenus.length; i++) {
-    submenus[i].addEventListener("click", function (e) {
-        e.stopPropagation(); // Prevent window.onclick from closing it
-        this.nextElementSibling.classList.toggle("show-submenu");
-    });
-}
-
-// Close dropdowns if the user clicks outside
-window.onclick = function (e) {
-    // Close main dropdowns
-    var dropdownContents = document.getElementsByClassName("dropdown-content");
-    for (let i = 0; i < dropdownContents.length; i++) {
-        if (dropdownContents[i].classList.contains("show") && !e.target.closest(".dropdown")) {
-            dropdownContents[i].classList.remove("show");
-        }
+// Close all dropdowns/submenus if clicking outside
+window.addEventListener("click", function(e) {
+  document.querySelectorAll(".dropdown-content").forEach(menu => {
+    if (!e.target.closest(".dropdown")) {
+      menu.classList.remove("show");
     }
+  });
 
-    // Close submenus
-    var submenuContents = document.getElementsByClassName("submenu-content");
-    for (let i = 0; i < submenuContents.length; i++) {
-        if (submenuContents[i].classList.contains("show-submenu") && !e.target.closest(".dropdown-submenu")) {
-            submenuContents[i].classList.remove("show-submenu");
-        }
+  document.querySelectorAll(".submenu-content").forEach(menu => {
+    if (!e.target.closest(".dropdown-submenu")) {
+      menu.classList.remove("show-submenu");
     }
-};
+  });
+});
+
 
 
 
