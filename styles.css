@@ -77,6 +77,19 @@ h1 {
     background-color: #ddd;
 }
 
+
+.dropdown-content .dropdown {
+    position: relative;
+}
+
+.dropdown-content .dropdown-content {
+    top: 0;
+    left: 100%;
+    position: absolute;
+    margin-left: 0;
+}
+
+
 .dropdown-content.show {
     max-height: 2000px; /* or however tall you want your dropdown to be */
 }
