@@ -167,9 +167,10 @@ h1 {
   }
 
   .dropdown-content .dropdown-content .dropdown-column {
-    display: block;
+    /* display: block; */
+    display: none;
     width: auto;
-    position: absolute;
+    /* position: absolute; */
     column-count: 3;
     column-gap: 15px;
     max-height: none;
