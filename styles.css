@@ -48,14 +48,12 @@ h1 {
     max-height: 0;
     position: absolute;
     background-color: white;
-    min-width: 160px;
-    /* overflow: hidden; */
-    overflow: visible;
-    display: none;
+    /*min-width: 160px;*/
+    overflow: hidden;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     transition: max-height 0.5s ease-in-out;
-    /* display: block;  */
+    display: block;
 }
 
 .dropdown-content a {
@@ -77,9 +75,6 @@ h1 {
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-
-
-
 
 .dropdown-content.show {
     max-height: 2000px; /* or however tall you want your dropdown to be */
@@ -154,34 +149,3 @@ h1 {
     border-radius: 10px;
 }
 
-
-/* new */
-
-.dropdown-content .dropdown-content {
-    top: 0;
-    left: 100%;
-    display: none;
-    /* z-index: 2; */
-    position: absolute;
-    max-width: none;
-  }
-
-  .dropdown-content .dropdown-content .dropdown-column {
-    /* display: block; */
-    display: none;
-    width: auto;
-    /* position: absolute; */
-    column-count: 3;
-    column-gap: 15px;
-    max-height: none;
-    /* z-index: 2; */
-    max-width: none;
-    padding: 12px 16px;
-}
-
-/* .dropdown-content  .dropdown-content.show {
-    display: block;
-    z-index: 2;
-    max-height: none;
-    max-width: none;
-} 
