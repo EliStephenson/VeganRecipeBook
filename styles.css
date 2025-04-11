@@ -161,6 +161,7 @@ h1 {
     top: 0;
     left: 100%;
     display: none;
+    z-index: 2;
     position: absolute;
     max-width: none;
   }
@@ -168,50 +169,18 @@ h1 {
   .dropdown-content .dropdown-content .dropdown-column {
     display: block;
     width: auto;
+    position: absolute;
     column-count: 3;
     column-gap: 15px;
     max-height: none;
+    z-index: 2;
     max-width: none;
     padding: 12px 16px;
 }
-/* 
-.dropdown-submenu {
-    position: relative;
-  }
-  
-  .submenu-content {
-    display: none;
-    position: absolute;
-    left: 100%; 
-    top: 0;
-    background-color: white;
-    min-width: 200px;
-    z-index: 1;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  }
-  
-  .dropdown-submenu:hover .submenu-content {
-    display: block;
-  }
-  
-  .submenu-btn {
-    background-color: #EDA5FE;
-    color: #0d5d58;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, "Avant Garde", Arial, sans-serif;
-    padding: 12px 16px;
-    font-size: 14px;
-    border: none;
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    text-align: left;
-    border-radius: 10px;
-    margin-bottom: 5px;
-  }
 
-  .submenu-content.show-submenu {
+.dropdown-content  .dropdown-content.show {
     display: block;
-  }
-  
-
- */
+    z-index: 2;
+    max-height: none;
+    max-width: none;
+}
