@@ -179,9 +179,9 @@ h1 {
     padding: 12px 16px;
 }
 
-.dropdown-content  .dropdown-content.show {
+/* .dropdown-content  .dropdown-content.show {
     display: block;
-    /* z-index: 2; */
+    z-index: 2;
     max-height: none;
     max-width: none;
-}
+} 
