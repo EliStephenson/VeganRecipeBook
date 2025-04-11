@@ -22,40 +22,6 @@ window.onclick = function(e) {
 }
 
 
-// // Toggle main dropdown
-// document.querySelectorAll(".dropbtn").forEach(btn => {
-//   btn.addEventListener("click", function(e) {
-//     e.stopPropagation();
-//     const dropdownContent = this.nextElementSibling;
-//     dropdownContent.classList.toggle("show");
-//   });
-// });
-
-// // Toggle submenus
-// document.querySelectorAll(".submenu-btn").forEach(btn => {
-//   btn.addEventListener("click", function(e) {
-//     e.stopPropagation();
-//     const submenu = this.nextElementSibling;
-//     submenu.classList.toggle("show-submenu");
-//   });
-// });
-
-// // Close all dropdowns/submenus if clicking outside
-// window.addEventListener("click", function(e) {
-//   document.querySelectorAll(".dropdown-content").forEach(menu => {
-//     if (!e.target.closest(".dropdown")) {
-//       menu.classList.remove("show");
-//     }
-//   });
-
-//   document.querySelectorAll(".submenu-content").forEach(menu => {
-//     if (!e.target.closest(".dropdown-submenu")) {
-//       menu.classList.remove("show-submenu");
-//     }
-//   });
-// });
-
-
 
 
 // Your list of recipes
