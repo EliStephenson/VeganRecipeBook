@@ -161,27 +161,27 @@ h1 {
     top: 0;
     left: 100%;
     display: none;
-    z-index: 2;
+    /* z-index: 2; */
     position: absolute;
     max-width: none;
   }
 
   .dropdown-content .dropdown-content .dropdown-column {
     /* display: block; */
-    display: block;
+    display: none;
     width: auto;
     /* position: absolute; */
     column-count: 3;
     column-gap: 15px;
     max-height: none;
-    z-index: 2;
+    /* z-index: 2; */
     max-width: none;
     padding: 12px 16px;
 }
 
-/* .dropdown-content  .dropdown-content.show {
+.dropdown-content  .dropdown-content.show {
     display: block;
     z-index: 2;
     max-height: none;
     max-width: none;
-} */
+}
