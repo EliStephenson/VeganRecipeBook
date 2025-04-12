@@ -26,6 +26,7 @@ window.onclick = function(e) {
 
 // Your list of recipes
 const recipes = [
+    { title: 'Chia Seed Pudding', url: 'recipes/breakfast/chia-seed-pudding.html', content: '...' },
     { title: 'Chocolate Pancakes with Tahini Topping', url: 'recipes/breakfast/chocolate-pancakes-with-tahini-topping.html', content: '...' },
     { title: 'Churro Baked Oats Stuffed with Cream Cheese', url: 'recipes/breakfast/churro-baked-oats-stuffed-with-cream-cheese.html', content: '...' },
     { title: 'Cinnamon Rolls', url: 'recipes/breakfast/cinnamon-rolls.html', content: '...' },
@@ -146,6 +147,7 @@ const recipes = [
     { title: 'Mushroom Gravy', url: 'recipes/saucesncheeses/mushroom-gravy.html', content: '...' },
     { title: 'Nacho Cheese Sauce', url: 'recipes/saucesncheeses/nacho-cheese-sauce.html', content: '...' },
     { title: 'Nutella', url: 'recipes/saucesncheeses/nutella.html', content: '...' },
+    { title: 'Pesto', url: 'recipes/saucesncheeses/pesto.html', content: '...' },
     { title: 'Peanut Sauce', url: 'recipes/saucesncheeses/peanut-sauce.html', content: '...' },
     { title: 'Queso', url: 'recipes/saucesncheeses/queso.html', content: '...' },
     { title: 'Ricotta', url: 'recipes/saucesncheeses/ricotta.html', content: '...' },
