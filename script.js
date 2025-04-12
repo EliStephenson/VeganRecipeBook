@@ -74,6 +74,7 @@ const recipes = [
     { title: 'Mushroom Cheeseburger', url: 'recipes/dinner/mushroom-cheeseburger.html', content: '...' },
     { title: 'Mushroom Fried Rice', url: 'recipes/dinner/mushroom-fried-rice.html', content: '...' },
     { title: 'Mushroom Soup', url: 'recipes/dinner/mushroom-soup.html', content: '...' },
+    { title: 'Palak Paneer', url: 'recipes/dinner/palak-paneer.html', content: '...' },
     { title: 'Potato Sausage Wraps', url: 'recipes/dinner/potato-sausage-wraps.html', content: '...' },
     { title: 'Roasted Broccoli Salad', url: 'recipes/dinner/roasted-broccoli-salad.html', content: '...' },
     { title: 'Ricks Winter Salad', url: 'recipes/dinner/ricks-winter-salad.html', content: '...' },
