@@ -125,11 +125,13 @@ const recipes = [
     { title: 'Snickerdoodles', url: 'recipes/dessert/snickerdoodles.html', content: '...' },
     { title: 'Thumbprint Cookies', url: 'recipes/dessert/thumbprint-cookies.html', content: '...' },
     // end of desserts, beginning of drinks
+    { title: 'Carrot Cake Smoothie', url: 'recipes/drinks/carrot-cake-smoothie.html', content: '...' },
     { title: 'Chai Concentrate', url: 'recipes/drinks/chai-concentrate.html', content: '...' },
     { title: 'Golden Turmeric Latte', url: 'recipes/drinks/golden-turmeric-latte.html', content: '...' },
     { title: 'Iced Mocha', url: 'recipes/drinks/iced-mocha.html', content: '...' },
     { title: 'Lemonade', url: 'recipes/drinks/lemonade.html', content: '...' },
     { title: 'Pumpkin Spice Syrup', url: 'recipes/drinks/pumpkin-spice-syrup.html', content: '...' },
+    { title: 'Orange Carrot Juice', url: 'recipes/drinks/orange-carrot-juice.html', content: '...' },
     { title: 'Orange Ginger Tea', url: 'recipes/drinks/orange-ginger-tea.html', content: '...' },
     // end of drinks, beginning of sauces and cheeses
     { title: 'Alfredo Sauce', url: 'recipes/saucesncheeses/alfredo-sauce.html', content: '...' },
