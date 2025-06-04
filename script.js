@@ -109,6 +109,7 @@ const recipes = [
     // end of snacks and sides, beginning of desserts
     { title: 'Apple Donuts', url: 'recipes/dessert/apple-donuts.html', content: '...' },
     { title: 'Blueberry Lavender Scones', url: 'recipes/dessert/blueberry-lavender-scones.html', content: '...' },
+    { title: 'Carrot Cake Muffins', url: 'recipes/dessert/carrot-cake-muffins.html', content: '...' },
     { title: 'Chickpea Cookies', url: 'recipes/dessert/chickpea-cookies.html', content: '...' },
     { title: 'Chocolate Mug Cake', url: 'recipes/dessert/chocolate-mug-cake.html', content: '...' },
     { title: 'Crème Brûlée', url: 'recipes/dessert/creme-brulee.html', content: '...' },
