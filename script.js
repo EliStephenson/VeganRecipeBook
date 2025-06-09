@@ -134,6 +134,7 @@ const recipes = [
     { title: 'Pumpkin Spice Syrup', url: 'recipes/drinks/pumpkin-spice-syrup.html', content: '...' },
     { title: 'Orange Carrot Juice', url: 'recipes/drinks/orange-carrot-juice.html', content: '...' },
     { title: 'Orange Ginger Tea', url: 'recipes/drinks/orange-ginger-tea.html', content: '...' },
+    { title: 'Watermelon Smoothie', url: 'recipes/drinks/watermelon-smoothie.html', content: '...' },
     // end of drinks, beginning of sauces and cheeses
     { title: 'Alfredo Sauce', url: 'recipes/saucesncheeses/alfredo-sauce.html', content: '...' },
     { title: 'Avocado Cilantro Dressing', url: 'recipes/saucesncheeses/avocado-cilantro-dressing.html', content: '...' },
